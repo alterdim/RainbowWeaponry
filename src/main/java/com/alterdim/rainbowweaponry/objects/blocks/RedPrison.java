@@ -1,5 +1,7 @@
 package com.alterdim.rainbowweaponry.objects.blocks;
 
+import com.alterdim.rainbowweaponry.init.ItemInit;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
@@ -21,7 +23,7 @@ public class RedPrison extends Block
 	public ActionResultType onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player,
 			Hand handIn, BlockRayTraceResult p_225533_6_) 
 	{
-		if (player.getActiveItemStack().equals())
+		if (player.getActiveItemStack().equals(ItemInit.MASTER_KEY.get().getDefaultInstance()))
 		{
 			
 		}

@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 import com.alterdim.rainbowweaponry.init.BlockInit;
 import com.alterdim.rainbowweaponry.init.ItemInit;
+import com.alterdim.rainbowweaponry.init.ModEntityTypes;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -40,6 +41,7 @@ public class RainbowWeaponry
     	
     	 ItemInit.ITEMS.register(modEventBus);
          BlockInit.BLOCKS.register(modEventBus);
+         ModEntityTypes.ENTITY_TYPES.register(modEventBus);
     	
     	
     	

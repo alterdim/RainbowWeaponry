@@ -30,5 +30,7 @@ public class ItemInit
 	new Item(new Item.Properties().group(RainbowWeaponryItemGroup.instance)));
 	public static final RegistryObject<Item> YELLOW_GEM = ITEMS.register("yellow_gem", () -> 
 	new Item(new Item.Properties().group(RainbowWeaponryItemGroup.instance)));
+	public static final RegistryObject<Item> MASTER_KEY = ITEMS.register("master_key", () -> 
+	new Item(new Item.Properties().group(RainbowWeaponryItemGroup.instance)));
 
 }
